@@ -1,5 +1,4 @@
 package behaviour;
-
 import entities.Entity;
 
 public interface IAttack {
