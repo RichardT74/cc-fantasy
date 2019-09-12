@@ -22,4 +22,16 @@ public abstract class Entity {
     protected void collect(int value) {
         inventory += value;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public int getInventory() {
+        return inventory;
+    }
 }
