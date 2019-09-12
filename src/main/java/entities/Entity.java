@@ -11,15 +11,15 @@ public abstract class Entity {
         this.inventory = 0;
     }
 
-    protected void defend(int damage) {
+    public void defend(int damage) {
         health -= damage;
     }
 
-    protected void heal(int replenishment) {
+    public void heal(int replenishment) {
         health += replenishment;
     }
 
-    protected void collect(int value) {
+    public void collect(int value) {
         inventory += value;
     }
 

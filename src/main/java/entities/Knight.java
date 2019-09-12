@@ -31,7 +31,7 @@ public class Knight extends Entity implements IAttack {
     }
 
     @Override
-    protected void defend(int damage) {
+    public void defend(int damage) {
         int reduceDamage = damage - armour.getValue();
         health -= reduceDamage;
     }
